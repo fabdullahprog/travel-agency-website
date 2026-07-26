@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Explore Travel | Contact</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body>
+  <!--Header / Navigation -->
+  <header id="header" role="banner">
+    <div class="container">
+      <a href="../index.html" class="logo" aria-label="Explore Travel Home">Explore Travel</a>
+      <nav role="navigation" aria-label="Main navigation">
+        <ul class="nav">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="packages.html">Packages</a></li>
+          <li><a href="booking.html">Booking</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contact / About Section -->
+  <main>
+    <section id="contact" style="padding:3rem 1rem; background:#f1f1f1;">
+      <div class="container" style="max-width:900px; margin:auto;">
+        <h1>Contact Us</h1>
+        <p>We’d love to hear from you! Whether you have a question, suggestion, or need help with a booking — reach out anytime.</p>
+
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:2rem; margin-top:2rem;">
+          
+          <!-- About Info -->
+          <div>
+            <h2>About Explore Travel</h2>
+            <p><strong>Explore Travel</strong> — we make your travel easy, comfortable, and memorable.  
+            Our goal is to provide safe and affordable packages with quality service.</p>
+
+            <p><strong>Address:</strong><br>123 Travel Street, Dhaka, Bangladesh</p>
+            <p><strong>Email:</strong> info@example.com<br>
+            <strong>Phone:</strong> +8801XXXXXXXXX</p>
+
+            <h4>Follow Us</h4>
+            <p>
+              <a href="#" aria-label="Facebook">Facebook</a> |
+              <a href="#" aria-label="Instagram">Instagram</a> |
+              <a href="#" aria-label="Twitter">Twitter</a>
+            </p>
+          </div>
+
+          <!-- Contact Form -->
+          <div>
+            <h2>Send a Message</h2>
+            <form id="contact-form" action="#" method="post" style="display:flex; flex-direction:column; gap:1rem; margin-top:1rem;">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required placeholder="Your full name" />
+
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="you@example.com" />
+
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" required placeholder="Write your message..."></textarea>
+
+              <button type="submit" class="btn primary">Send Message</button>
+            </form>
+          </div>
+          
+
+            <!-- Google Map -->
+            <div style="grid-column: 1 / -1;">
+              <h2>Our Location</h2>
+              <div style="width:100%; height:350px; border-radius:8px; overflow:hidden;">
+                <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.663921942893!2d91.82172407434672!3d22.366315340501206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd88663aa933b%3A0x49c280a009d69f0f!2sFinlay%20Square!5e0!3m2!1sen!2sbd!4v1762877727217!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></src=></iframe>" 
+                  width="100%" 
+                  height="100%" 
+                  style="border:0;" 
+                  allowfullscreen="" 
+                  loading="lazy" 
+                  referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+              </div>
+            </div>
+
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer-->
+  <footer role="contentinfo" style="padding:1rem; text-align:center;">
+    <div class="container">
+       <p>© 2025 Explore Travel — All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
