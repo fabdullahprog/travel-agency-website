@@ -98,13 +98,6 @@ screenshots/
 
 **Abdullah Foysal**
 
-GitHub: https://github.com/fabdullahprog
-
----
-
-## ⭐ If you like this project
-
-Give this repository a ⭐ on GitHub.
 
 ---
 
