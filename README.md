@@ -18,9 +18,11 @@ This website is designed for a travel agency to help users explore destinations,
 - 🎒 Tour Packages
 - 📝 Online Booking Form
 - 📞 Contact Page
-- 📱 Fully Responsive Design
+- 📱 Responsive Design (Mobile, Tablet & Desktop)
 - 🎥 Images & Videos
 - 📍 Google Map Integration
+- 🎨 Clean and Modern User Interface
+- 🧭 Easy Navigation
 
 ---
 
